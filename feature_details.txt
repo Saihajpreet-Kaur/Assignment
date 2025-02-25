@@ -1,0 +1,15 @@
+This feature will implement a user authentication system, allowing users to securely register, log in, and manage their sessions. It will include password hashing and email verification.
+
+##Overview 
+This feature will implement a user authentication system,allowing users to :
+- Register an account using email and password.
+- Log in and manage their sessions securely.
+- Reset passwords using email verification.
+
+## Implementation Details
+- Store user credentials securely using password hashing (e.g., bcrypt).
+- Implement session management with JWT tokens.
+
+## Expected Outcome
+With this feature, users will be able to securely register, log in, and reset their passwords, ensuring authentication security.
+EOL
