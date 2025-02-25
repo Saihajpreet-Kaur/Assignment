@@ -1,13 +1,20 @@
-This feature will implement a profile management system, allowing users to update their personal information, change passwords, and upload profile pictures.
-
-cat <<EOL > feature_details.txt
 # Feature: Profile Management System
 
 ## Overview
-This feature allows users to manage their profiles, including:
-- Updating personal information (name, email, etc.).
-- Changing passwords securely.
-- Uploading and managing profile pictures.
+This feature will implement a profile management system, allowing users to:
+- Update their personal information (name, email, etc.).
+- Change passwords securely.
+- Upload and manage profile pictures.
+
+## Additional Updates
+- Profile data will now be validated to prevent incorrect entries.
+- Image uploads will support JPG, PNG, and GIF formats.
+- Users can now set a default profile picture if none is uploaded.
 
 ## Implementation Details
-- Profile updates will be stored securely
+- User data will be stored securely in a database.
+- Password changes will require email confirmation.
+- Profile pictures will be optimized for better loading performance.
+
+## Expected Outcome
+This feature will provide users with a seamless way to manage their profile information securely and efficiently.
