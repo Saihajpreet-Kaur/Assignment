@@ -1,0 +1,1 @@
+This project is a demonstration of Git version control, including repository creation, branching, merging, and auditing. It covers essential Git operations such as commit history tracking, branch management, and repository documentation.
